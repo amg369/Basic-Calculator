@@ -11,11 +11,13 @@ def do_math():
     global run
     global previous
     equation = ""
+    
+    # A previous prompt is used 
     if previous == 0:
         equation = input("Enter equation:")
     else:
         equation = input(str(previous))
-
+    # If the user quits
     if equation == "quit":
         print("Goodbye!")
         run = False
