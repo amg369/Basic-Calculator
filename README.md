@@ -1,2 +1,2 @@
 # Basic-Calculator
-Small Python project, a basic calculator.
+Small project, a basic calculator.
